@@ -34,5 +34,7 @@ Jika sudah paham dengan konsep modularisasi sederhana diatas. Sistem bisa dibuat
 - Tambahkan file __ init __.py di  dalamnya (isinya kosong saja, file ini yang membedakan folder biasa dengan folder package python)
 - Sesuaikan alamat import dari file, misalnya untuk start.py, alamat import run_view() menjadi:
 <pre>from teman.views import run_view</pre>
+<br>
+Untuk pembuatan package lainnya, tidak beda prosesnya. Misalnya membuat package 'buku'.
 
 

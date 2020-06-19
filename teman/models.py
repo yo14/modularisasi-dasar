@@ -8,7 +8,10 @@ class Teman():
 
 daftar_teman = []
 
-teman = Teman('Joko','Laki-laki')
-daftar_teman.append(teman)
+daftar_teman.append(Teman('Prabowo','Laki-laki'))
+daftar_teman.append(Teman('Joko','Laki-laki'))
+daftar_teman.append(Teman('Mega','Laki-laki'))
+daftar_teman.append(Teman('Gareng','Tidak tau'))
+
 
 

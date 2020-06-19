@@ -1,9 +1,9 @@
-from teman.views import run_view as run_view_teman  # gunakan 'as' karena yang diimpor, namanya sama, run_view
-from buku.views import  run_view as run_view_buku
+from teman import views as view_teman
+from buku import views as view_buku
 
-run_view_teman()
+view_teman.run_view()
 print('')
-run_view_buku()
+view_buku.run_view()
 
 
 

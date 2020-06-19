@@ -1,5 +1,11 @@
 daftar_teman = []
-daftar_teman.append('Joko')
-daftar_teman.append('Prabowo')
-daftar_teman.append('Mega')
-daftar_teman.append('Gareng')
+
+teman = {}
+teman['nama'] = 'Joko'
+teman['sex'] = 'Laki-laki'
+
+daftar_teman.append(teman)
+
+# daftar_teman.append('Prabowo')
+# daftar_teman.append('Mega')
+# daftar_teman.append('Gareng')

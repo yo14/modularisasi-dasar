@@ -1,7 +1,6 @@
-from models import daftar_teman
+from views import run_view
 
-print('Daftar Teman')
-print('-' * 12)
-for dn in daftar_teman:
-    print(dn)
+run_view()
+
+
 

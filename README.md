@@ -19,7 +19,7 @@ def run_view():
         print(dn)
 ```
 
-- start.py: modul bootrap aplikasi
+- start.py: modul bootstrap aplikasi
 ```buildoutcfg
 from views import run_view
 run_view()

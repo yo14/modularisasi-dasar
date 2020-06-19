@@ -1,11 +1,14 @@
+class Teman():
+    def __init__(self, nama, sex):
+        self.nama = nama
+        self.sex = sex
+
+    def __str__(self):
+        return (f'Nama = {self.nama} dan Sex = {self.sex}')
+
 daftar_teman = []
 
-teman = {}
-teman['nama'] = 'Joko'
-teman['sex'] = 'Laki-laki'
-
+teman = Teman('Joko','Laki-laki')
 daftar_teman.append(teman)
 
-# daftar_teman.append('Prabowo')
-# daftar_teman.append('Mega')
-# daftar_teman.append('Gareng')
+

@@ -1,9 +1,4 @@
-daftar_teman = []
-daftar_teman.append('Joko')
-daftar_teman.append('Prabowo')
-daftar_teman.append('Mega')
-daftar_teman.append('Gareng')
-
+from models import daftar_teman
 
 print('Daftar Teman')
 print('-' * 12)
